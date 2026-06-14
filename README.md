@@ -38,3 +38,9 @@ yay -S --needed hyprland fish awww swaync waybar rofi kitty starship nwg-look fz
 ```bash
 git clone https://github.com/Akito1507/Rice-1.git && cd Rice-1 && chmod +x install.sh && ./install.sh
 ```
+
+## Optional: Some of my favorite apps
+```bash
+yay -S --needed kde-connect hypr-kdeconnect-fix pipwire wireplumber xdg-desktop-portal-hyprland qt6-wayland
+```
+
