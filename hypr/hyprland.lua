@@ -1,0 +1,12 @@
+--Core Settings
+require("modules/monitors")
+require("modules/binds")
+require("modules/autostart")
+require("modules/env")
+require("modules/permisions")
+require("modules/decorations")
+require("modules/windowrules")
+require("modules/layouts")
+require("modules/misc")
+require("modules/input")
+require("modules/windows")

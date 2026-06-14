@@ -1,0 +1,25 @@
+@import "colors/current-theme.css";
+/*----------------
+    Workspaces
+----------------*/
+
+#custom-left_div.1,
+#custom-right_div.1 {
+	color: @bg2;
+}
+#workspaces {
+	padding: 0 1px;
+	background-color: @bg2;
+}
+#workspaces button.active label,
+#workspaces button.focused label {
+	color: @blue;
+}
+
+/*------------------
+    Window title
+------------------*/
+
+#window {
+	margin: 0 12px;
+}
