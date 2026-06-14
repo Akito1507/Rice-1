@@ -1,0 +1,1 @@
+yay -S --needed kde-connect hypr-kdeconnect-fix pipwire wireplumber xdg-desktop-portal-hyprland qt6-wayland
