@@ -11,7 +11,7 @@ Screenshots
 
 Dependencies
                 
-+ fish
++ fish (not required but preferred)
 + awww
 + swaync
 + waybar
