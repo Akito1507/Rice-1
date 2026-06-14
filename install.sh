@@ -29,3 +29,5 @@ mkdir -p $HOME/.config/swaync && cp -rv $HOME/Rice-1/swaync $HOME/.config/swaync
 mkdir -p $HOME/.config/waybar && cp -rv $HOME/Rice-1/waybar $HOME/.config/waybar #waybar
 
 mkdir -p $HOME/.config/yazi && cp -rv $HOME/Rice-1/yazi $HOME/.config/yazi #yazi
+
+cd $HOME/scripts && chmod +x theme-selector.sh && chmod +x master-selector.sh && chmod +x config-menu.sh && chmod +x rofi-launch.sh && chmod +x wallpaper-selector.sh && cd scripts && chmod +x theme-selector.sh && chmod +x master-selector.sh && chmod +x config-menu.sh && chmod +x rofi-launch.sh && chmod +x config-reload.sh #make scripts executable as files
