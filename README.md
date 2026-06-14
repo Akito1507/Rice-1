@@ -11,20 +11,20 @@ Screenshots
 
 Dependencies
                 
-• fish
-• awww
-• swaync
-• waybar
-• rofi
-• kitty
-• starship
-• nwg-look
-• discord (with vencord)
-• fzf
-• fastfetch
-• nautilus
-• yazi
-• pavucontrol
++ fish
++ awww
++ swaync
++ waybar
++ rofi
++ kitty
++ starship
++ nwg-look
++ discord (with vencord)
++ fzf
++ fastfetch
++ nautilus
++ yazi
++ pavucontrol
 
 ## One Command Install
 ```bash
