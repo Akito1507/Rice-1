@@ -19,7 +19,7 @@ Dependencies
 + kitty
 + starship
 + nwg-look
-+ discord with vencord (desktop might work I don't know if the themes location is the same)
++ discord with vencord (vesktop might work if the location is the same. prob not)
 + fzf
 + fastfetch
 + nautilus
