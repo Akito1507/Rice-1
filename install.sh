@@ -30,4 +30,4 @@ mkdir -p $HOME/.config/waybar && cp -rv $HOME/Rice-1/waybar $HOME/.config/waybar
 
 mkdir -p $HOME/.config/yazi && cp -rv $HOME/Rice-1/yazi $HOME/.config/yazi #yazi
 
-cd $HOME/scripts && chmod +x theme-selector.sh && chmod +x master-selector.sh && chmod +x config-menu.sh && chmod +x rofi-launch.sh && chmod +x wallpaper-selector.sh && cd scripts && chmod +x theme-selector.sh && chmod +x master-selector.sh && chmod +x config-menu.sh && chmod +x rofi-launch.sh && chmod +x config-reload.sh #make scripts executable as files
+cd $HOME/scripts && chmod +x theme-selector.sh && chmod +x master-selector.sh && chmod +x config-menu.sh && chmod +x rofi-launch.sh && chmod +x wallpaper-selector.sh && cd scripts && chmod +x theme-selector.sh && chmod +x master-selector.sh && chmod +x config-menu.sh && chmod +x rofi-launch.sh && chmod +x config-reload.sh && chmod +x $HOME/Rice-1/apps.sh #make scripts executable as files
