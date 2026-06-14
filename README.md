@@ -41,6 +41,6 @@ git clone https://github.com/Akito1507/Rice-1.git && cd Rice-1 && chmod +x insta
 
 ## Optional: Some of my favorite apps
 ```bash
-yay -S --needed kde-connect hypr-kdeconnect-fix pipwire wireplumber xdg-desktop-portal-hyprland qt6-wayland obs
+yay -S --needed kde-connect hypr-kdeconnect-fix pipwire wireplumber xdg-desktop-portal-hyprland qt6-wayland obs nvim
 ```
 
