@@ -28,5 +28,5 @@ Dependencies
 
 ## One Command Install
 ```bash
-git clone https://github.com/Akito1507/Rice-1.git && cd Rice-1 && chmod +x install.sh && ./install.sh
+git clone https://github.com/Akito1507/Rice-1.git && cd Rice-1 && chmod +x install.sh && ./install.sh && cd scripts && chmod +x theme-selector.sh && chmod +x master-selector.sh && chmod +x config-menu.sh
 ```
