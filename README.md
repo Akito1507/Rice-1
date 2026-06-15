@@ -31,7 +31,7 @@ Dependencies
 ## Install all dependencies
 
 ```bash
-yay -S --needed hyprland fish awww swaync waybar rofi kitty starship nwg-look fzf fastfetch nautilus yazi pavucontrol hyprlock hyprshot xdg-desktop-portal-hyprland xdg-desktop-portal-gnome xdg-desktop-portal-gtk polkit-gnome flatpak && flatpak install com.discordapp.Discord && sh -c "$(curl -sS https://vencord.dev/install.sh)
+yay -S --needed hyprland fish awww swaync waybar rofi kitty starship nwg-look fzf fastfetch nautilus yazi pavucontrol hyprlock hyprshot xdg-desktop-portal-hyprland xdg-desktop-portal-gnome xdg-desktop-portal-gtk polkit-gnome flatpak && flatpak install com.discordapp.Discord && sh -c "$(curl -sS https://vencord.dev/install.sh)"
 ```
 
 ## One Command Install
