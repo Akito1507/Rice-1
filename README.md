@@ -1,12 +1,12 @@
 Screenshots
 
-![](https://raw.githubusercontent.com/Akito1507/Rice-1/refs/heads/main/examples/2026-06-06-034658_hyprshot.png)
+![](https://raw.githubusercontent.com/Akito1507/Rice-1/refs/heads/Desktop-Version/examples/2026-06-06-034658_hyprshot.png)
 > Theme Changer/Wallpaper Changer
 
-![](https://raw.githubusercontent.com/Akito1507/Rice-1/refs/heads/main/examples/2026-06-06-034734_hyprshot.png)
+![](https://raw.githubusercontent.com/Akito1507/Rice-1/refs/heads/Desktop-Version/examples/2026-06-06-034734_hyprshot.png)
 > Rofi app launcher (not mine, cant remember where i got it from)
 
-![](https://raw.githubusercontent.com/Akito1507/Rice-1/refs/heads/main/examples/2026-06-06-035019_hyprshot.png)
+![](https://github.com/Akito1507/Rice-1/blob/Desktop-Version/examples/2026-06-06-035019_hyprshot.png)
 > Gtk themes (not made by me)
 
 Dependencies
