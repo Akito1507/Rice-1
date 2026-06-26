@@ -25,7 +25,8 @@ hl.env("QT_WAYLAND_DISABLE_WINDOWDECORATION", "1") -- Disables window decoration
 hl.env("QT_QPA_PLATFORMTHEME", "qt6ct") -- Tells Qt based applications to pick your theme from qt5ct, use with Kvantum.
 
 -- NVIDEA Specific
-hl.env("GBM_BACKEND", "nvidia-drm")
-hl.env("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
-hl.env("LIBVA_DRIVER_NAME", "nvidia")
-hl.env("AQ_NO_ATOMIC", "1")
+--hl.env("GBM_BACKEND", "nvidia-drm")
+--hl.env("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
+--hl.env("LIBVA_DRIVER_NAME", "nvidia")
+--hl.env("AQ_NO_ATOMIC", "1")
+

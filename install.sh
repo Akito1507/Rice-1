@@ -2,8 +2,6 @@
 
 mkdir -p $HOME/.config/backgrounds && cp -rv $HOME/Rice-1/backgrounds/. $HOME/.config/backgrounds/ #Wallpapers/assets
 
-cp -v $HOME/Rice-1/bashrc $HOME/.bashrc #BashRc
-
 mkdir -p $HOME/.config/colorschemes && cp -rv $HOME/Rice-1/colorschemes/. $HOME/.config/colorschemes/ #Themes
 
 mkdir -p $HOME/.var/app/com.discordapp.Discord/config/Vencord/themes && cp -rv $HOME/Rice-1/discord/. $HOME/.var/app/com.discordapp.Discord/config/Vencord/themes/ #Discord Themes
@@ -30,4 +28,16 @@ mkdir -p $HOME/.config/waybar && cp -rv $HOME/Rice-1/waybar/. $HOME/.config/wayb
 
 mkdir -p $HOME/.config/yazi && cp -rv $HOME/Rice-1/yazi/. $HOME/.config/yazi/ #yazi
 
-cd $HOME/scripts && chmod +x themes-selector.sh && chmod +x master-selector.sh && chmod +x config-menu.sh && chmod +x rofi-launch.sh && chmod +x wallpaper-selector.sh && chmod +x reload-config.sh && chmod +x power.sh #make scripts executable as files
+cp -r $HOME/Rice-1/bashrc/. $HOME #bashrc
+
+cp -r $HOMe/Rice-1/zprofile/. $HOME #zprofile
+
+cd $HOME/scripts && chmod +x themes-selector.sh && chmod +x master-selector.sh && chmod +x config-menu.sh && chmod +x rofi-launch.sh && chmod +x wallpaper-selector.sh && chmod +x reload-config.sh && chmod +x power.sh && chmod +x laptop.sh && chmod +x enable-chaotic-aur.sh #make scripts executable as files
+
+./$HOME/scripts/laptop.sh #set power profilie
+
+./$HOME/scripts/enable-chaotic-aur
+
+sudo systemctl enable --now autocpufreq
+
+sudo systemctl disable sddm
