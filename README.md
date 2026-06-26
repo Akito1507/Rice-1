@@ -39,7 +39,7 @@ yay -S --needed hyprland fish awww swaync waybar rofi kitty starship nwg-look fz
 
 ## One Command Install
 ```bash
-git clone https://github.com/Akito1507/Rice-1.git && cd Rice-1 && chmod +x install.sh && ./install.sh && chsh -s $(which fish)
+git clone -b Laptop-Version https://github.com/Akito1507/Rice-1.git && cd Rice-1 && chmod +x install.sh && ./install.sh && chsh -s $(which fish)
 ```
 
 ## Optional: Some of my favorite apps
