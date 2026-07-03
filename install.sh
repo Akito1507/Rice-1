@@ -4,6 +4,8 @@ mkdir -p $HOME/.config/backgrounds && cp -rv $HOME/Rice-1/backgrounds/. $HOME/.c
 
 mkdir -p $HOME/.config/colorschemes && cp -rv $HOME/Rice-1/colorschemes/. $HOME/.config/colorschemes/ #Themes
 
+flatpak run com.discordapp.Discord #Run discord
+
 mkdir -p $HOME/.var/app/com.discordapp.Discord/config/Vencord/themes && cp -rv $HOME/Rice-1/discord/. $HOME/.var/app/com.discordapp.Discord/config/Vencord/themes/ #Discord Themes
 
 mkdir -p $HOME/.config/fastfetch && cp -rv $HOME/Rice-1/fastfetch/. $HOME/.config/fastfetch/ #Fastfetch
