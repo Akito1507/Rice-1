@@ -30,11 +30,12 @@ Dependencies
 + caskaydia Nerd Font
 + auto-cpufreq
 + supergfxctl
++ brightnessctl
 
 ## Install all dependencies
 
 ```bash
-yay -S --needed hyprland-git fish awww swaync waybar rofi kitty starship nwg-look fzf fastfetch nautilus yazi pavucontrol hyprlock-git hyprshot xdg-desktop-portal-hyprland xdg-desktop-portal-gnome xdg-desktop-portal-gtk polkit-gnome flatpak ttf-cascadia-code-nerd supergfxctl && flatpak install com.discordapp.Discord && sh -c "$(curl -sS https://vencord.dev/install.sh)"
+yay -S --needed hyprland-git fish awww swaync waybar rofi kitty starship nwg-look fzf fastfetch nautilus yazi pavucontrol hyprlock-git hyprshot xdg-desktop-portal-hyprland xdg-desktop-portal-gnome xdg-desktop-portal-gtk polkit-gnome flatpak ttf-cascadia-code-nerd supergfxctl brightnessctl && flatpak install com.discordapp.Discord && sh -c "$(curl -sS https://vencord.dev/install.sh)"
 ```
 
 ## One Command Install
