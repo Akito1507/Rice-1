@@ -38,6 +38,6 @@ cd $HOME/scripts && chmod +x themes-selector.sh && chmod +x master-selector.sh &
 
 ./$HOME/scripts/enable-chaotic-aur
 
-sudo systemctl enable --now autocpufreq
+sudo systemctl enable --now auto-cpufreq
 
 sudo systemctl disable sddm
