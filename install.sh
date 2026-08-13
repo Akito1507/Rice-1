@@ -4,15 +4,13 @@ mkdir -p $HOME/.config/backgrounds && cp -rv $HOME/Rice-1/backgrounds/. $HOME/.c
 
 mkdir -p $HOME/.config/colorschemes && cp -rv $HOME/Rice-1/colorschemes/. $HOME/.config/colorschemes/ #Themes
 
-flatpak run com.discordapp.Discord #Run discord
-
-mkdir -p $HOME/.var/app/com.discordapp.Discord/config/Vencord/themes && cp -rv $HOME/Rice-1/discord/. $HOME/.var/app/com.discordapp.Discord/config/Vencord/themes/ #Discord Themes
+mkdir -p $HOME/.var/app/dev.vencord.Vesktop/config/vesktop/themes && cp -rv $HOME/Rice-1/discord/. $HOME/.var/app/dev.vencord.Vesktop/config/vesktop/themes/ #Discord Themes
 
 mkdir -p $HOME/.config/fastfetch && cp -rv $HOME/Rice-1/fastfetch/. $HOME/.config/fastfetch/ #Fastfetch
 
 mkdir -p $HOME/.config/fish && cp -rv $HOME/Rice-1/fish/. $HOME/.config/fish/ #fish config
 
-mkdir -p $HOME/.themes && cp -rv $HOME/Rice-1/gtk-themes/. $HOME/.themes/gtk-themes/ #gtk themes
+mkdir -p $HOME/.themes && cp -rv $HOME/Rice-1/gtk-themes/. $HOME/.themes/ #gtk themes
 
 mkdir -p $HOME/.config/hypr && cp -rv $HOME/Rice-1/hypr/. $HOME/.config/hypr/ #hyprland config
 
@@ -30,16 +28,8 @@ mkdir -p $HOME/.config/waybar && cp -rv $HOME/Rice-1/waybar/. $HOME/.config/wayb
 
 mkdir -p $HOME/.config/yazi && cp -rv $HOME/Rice-1/yazi/. $HOME/.config/yazi/ #yazi
 
-cp -r $HOME/Rice-1/bashrc/. $HOME #bashrc
-
-cp -r $HOMe/Rice-1/zprofile/. $HOME #zprofile
-
 cd $HOME/scripts && chmod +x themes-selector.sh && chmod +x master-selector.sh && chmod +x config-menu.sh && chmod +x rofi-launch.sh && chmod +x wallpaper-selector.sh && chmod +x reload-config.sh && chmod +x power.sh && chmod +x laptop.sh && chmod +x enable-chaotic-aur.sh #make scripts executable as files
 
-./$HOME/scripts/laptop.sh #set power profilie
-
-./$HOME/scripts/enable-chaotic-aur
-
-sudo systemctl enable --now auto-cpufreq
+sudo systemctl enable --now auto-cpufreq.service && ./$HOME/scripts/enable-chaotic-aur.sh && ./$HOME/scripts/laptop.sh #autocpufreq
 
 sudo systemctl disable sddm

@@ -1,4 +1,3 @@
-@import "theme.css";
 
 * {
 	all: initial; /* Reset GTK theme */
@@ -10,7 +9,7 @@
 @import "modules-left.css";
 @import "modules-right.css";
 @import "states.css";
-@import "colors/current-theme.css";
+@import "colors/colors.css";
 
 
 .module {
@@ -18,12 +17,12 @@
 }
 
 #waybar {
-	background-color: @bg0;
-	color: @bg0;
+	background-color: @main-bg-color;
+	color: @main-bg-color;
 }
 #waybar > box {
 	margin: 4px;
- 	background-color: @bg0;
+ 	background-color: @main-bg-color;
 }
 
 button {
@@ -32,25 +31,25 @@ button {
 	padding: 0 10px;
 }
 button:hover {
-	background-color: @bg1;
-	color: @blue;
+	background-color: @secondary-bg-color;
+	color: @secondary-bg-color;
 }
 
 tooltip {
-	border: 2px solid @bg0;
+	border: 2px solid @main-bg-color;
 	border-radius: 10px;
-	background-color: @bg0;
+	background-color: @main-bg-color;
 }
 tooltip > box {
 	padding: 0 6px;
 }
 
 #clock {
-	color: @blue;
+	color: @accent-color;
 }
 
 #cava {
-	color: @blue;
+	color: @accent-color;
 	padding-left: 15px;
 	padding-right: 15px;
 }

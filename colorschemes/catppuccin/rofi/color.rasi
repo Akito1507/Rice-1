@@ -1,0 +1,14 @@
+* {
+    main-bg-color: #1e1e2e;
+    secondary-bg-color: #313244;
+    text-main-color: #cdd6f4;
+    debug: #FFFF00;
+    accent-color: #89b4fa;
+    red: #f38ba8;
+    orange: #fab387;
+    yellow: #f9e2af;
+    green: #a6e3a1;
+    aqua: #94e2d5;
+    blue: #89b4fa;
+    purple: #cba6f7;
+}

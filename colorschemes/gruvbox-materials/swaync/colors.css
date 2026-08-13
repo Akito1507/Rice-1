@@ -1,0 +1,16 @@
+@define-color main-bg-color #1d2021;
+@define-color secondary-bg-color #282828;
+
+@define-color text-main-color #f5e2c5;
+
+@define-color debug #FFFF00;
+
+@define-color accent-color #7daea3;
+
+@define-color red #ea6962;
+@define-color orange #e78a4e;
+@define-color yellow #d8a657;
+@define-color green #a9b665;
+@define-color aqua #89b482;
+@define-color blue #7daea3;
+@define-color purple #d3869b;

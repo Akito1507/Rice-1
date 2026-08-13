@@ -1,4 +1,4 @@
-@import "colors/current-theme.css";
+@import "colors/colors.css";
 /*---------------
     Indicator
 ---------------*/
@@ -6,7 +6,7 @@
 #keyboard-state label,
 #language {
 	margin-right: 12px;
-	color: @hover-fg;
+	color: @accent-color;
 }
 
 /*-----------------
@@ -14,10 +14,10 @@
 -----------------*/
 
 #custom-left_div.2 {
-	color: @tempeture;
+	color: @accent-color;
 }
 #temperature {
-	background-color: @temperature;
+	background-color: @accent-color;
 }
 
 /*------------
@@ -25,11 +25,11 @@
 ------------*/
 
 #custom-left_div.3 {
-	background-color: @temperature;
-	color: @memory;
+	background-color: @accent-color;
+	color: @accent-color;
 }
 #memory {
-	background-color: @memory;
+	background-color: @accent-color;
 }
 
 /*---------
@@ -37,14 +37,14 @@
 ---------*/
 
 #custom-left_div.4 {
-	background-color: @memory;
-	color: @cpu;
+	background-color: @accent-color;
+	color: @accent-color;
 }
 #cpu {
-	background-color: @cpu;
+	background-color: @accent-color;
 }
 #custom-left_inv.1 {
-	color: @cpu;
+	color: @accent-color;
 }
 
 /*-----------------
@@ -53,12 +53,12 @@
 
 #custom-left_div.5,
 #custom-right_div.2 {
-	color: @blue;
+	color: @accent-color;
 }
 #custom-distro {
 	padding: 0 10px 0 5px;
-	background-color: @blue;
-	color: @main-bg;
+	background-color: @accent-color;
+	color: @main-bg-color;
 }
 
 /*--------------------
@@ -66,11 +66,11 @@
 --------------------*/
 
 #custom-right_inv.1 {
-	color: @time;
-	background-color: @time;
+	color: @accent-color;
+	background-color: @accent-color;
 }
 #idle_inhibitor {
-	background-color: @time;
+	background-color: @accent-color;
 }
 
 /*----------
@@ -79,11 +79,11 @@
 
 #clock.time {
 	padding-right: 6px;
-	background-color: @bg2;
+	background-color: @secondary-bg-color;
 }
 #custom-right_div.3 {
-	background-color: @bg2;
-	color: @bg2;
+	background-color: @secondary-bg-color;
+	color: @secondary-bg-color;
 }
 
 /*----------
@@ -92,11 +92,11 @@
 
 #clock.date {
 	padding-left: 6px;
-	background-color: @bg2;
+	background-color: @secondary-bg-color;
 }
 #custom-right_div.4 {
-	background-color: @bg2;
-	color: @blue;
+	background-color: @secondary-bg-color;
+	color: @accent-color;
 }
 
 /*-----------------
@@ -104,18 +104,18 @@
 -----------------*/
 
 #network {
-	background-color: @bg2;
-	color: @blue;
+	background-color: @secondary-bg-color;
+	color: @accent-color;
 	padding: 0 6px 0 4px;
 }
 #bluetooth {
-	background-color: @bg2;
+	background-color: @secondary-bg-color;
 	padding: 0 5px;
 }
 #custom-update {
-	background-color: @bg2;
+	background-color: @secondary-bg-color;
 	padding: 0 8px 0 2px;
 }
 #custom-right_div.5 {
-	color: @blue;
+	color: @accent-color;
 }

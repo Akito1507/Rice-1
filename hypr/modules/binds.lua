@@ -8,6 +8,7 @@ local fileManager2 = "kitty yazi"
 local fileManager = "nautilus -w"
 local menu = "~/scripts/rofi-launch.sh"
 local hyprshot = "hyprshot -m region"
+local hyprshot2 = "hyprshot -m output"
 
 ---------------------
 ---- KEYBINDINGS ----
@@ -26,7 +27,8 @@ hl.bind(
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
 hl.bind("ALT + SPACE", hl.dsp.exec_cmd(menu)) --Menu
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager2)) --File Manager
-hl.bind(mainMod .. " + SHIFT + S ", hl.dsp.exec_cmd(hyprshot)) --Screenshot
+hl.bind(mainMod .. " + SHIFT + S ", hl.dsp.exec_cmd(hyprshot)) --Screenshot region
+hl.bind(mainMod .. " + SHIFT + HOME", hl.dsp.exec_cmd(hyprshot2)) --Screenshot Monitor
 hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd(fileManager))
 
 --Scripts
@@ -68,16 +70,16 @@ end
 --hl.bind(mainMod .. " + mouse_up", hl.dsp.focus({ workspace = "e-1" }))
 
 -- Laptop multimedia keys for volume and LCD brightness
-hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"),
-  { locked = true, repeating = true })
-hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"),
- { locked = true, repeating = true })
-hl.bind("XF86AudioMute", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"),
-  { locked = true, repeating = true })
-hl.bind("XF86AudioMicMute", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"),
-  { locked = true, repeating = true })
-hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%+"), { locked = true, repeating = true })
-hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%-"), { locked = true, repeating = true })
+--hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"),
+--  { locked = true, repeating = true })
+--hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"),
+-- { locked = true, repeating = true })
+--hl.bind("XF86AudioMute", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"),
+--  { locked = true, repeating = true })
+--hl.bind("XF86AudioMicMute", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"),
+--  { locked = true, repeating = true })
+--hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%+"), { locked = true, repeating = true })
+--hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%-"), { locked = true, repeating = true })
 
 -- Requires playerctl
 --hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next"), { locked = true })
