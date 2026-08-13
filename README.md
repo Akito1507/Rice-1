@@ -31,8 +31,7 @@ yay -S --needed hyprland fish awww swaync waybar rofi kitty starship nwg-look fz
 git clone -b Laptop-Version https://github.com/Akito1507/Rice-1.git && cd Rice-1 && chmod +x install.sh && ./install.sh && chsh -s $(which fish)
 ```
 
-## Optional: Some of my favorite apps
+## My Apps
 ```bash
-yay -S --needed kde-connect hypr-kdeconnect-fix pipwire wireplumber xdg-desktop-portal-hyprland qt6-wayland obs nvim
+flatpak install app.zen_browser.zen md.obsidian.Obsidian com.spotify.Client com.github.vikdevelop.photopea_app org.localsend.localsend_app && yay -S nvim --needed && git clone https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/nvim/.git
 ```
-
