@@ -28,3 +28,8 @@ yay -S --needed hyprland fish awww swaync waybar rofi kitty starship nwg-look fz
 ```bash
 git clone -b Desktop-Version https://github.com/Akito1507/Rice-1.git && cd Rice-1 && chmod +x install.sh && ./install.sh && chsh -s $(which fish)
 ```
+
+## My Apps
+```bash
+flatpak install app.zen_browser.zen md.obsidian.Obsidian com.obsproject.Studio com.spotify.Client com.github.vikdevelop.photopea_app org.prismlauncher.PrismLauncher org.vinegarhq.Sober org.localsend.localsend_app
+```
