@@ -21,7 +21,7 @@ Dependencies
 ## Install all dependencies
 
 ```bash
-yay -S --needed hyprland fish awww swaync waybar rofi kitty starship nwg-look fzf fastfetch nautilus yazi pavucontrol hyprlock-git hyprshot xdg-desktop-portal-hyprland xdg-desktop-portal-gtk polkit-gnome flatpak ttf-cascadia-code-nerd && flatpak install dev.vencord.Vesktop && sh -c "$(curl -sS https://vencord.dev/install.sh)"
+yay -S --needed hyprland fish awww swaync waybar rofi kitty starship nwg-look fzf fastfetch nautilus yazi pavucontrol hyprlock-git hyprshot xdg-desktop-portal-hyprland xdg-desktop-portal-gtk polkit-gnome flatpak ttf-cascadia-code-nerd qt5-wayland qt6-wayland && flatpak install dev.vencord.Vesktop && sh -c "$(curl -sS https://vencord.dev/install.sh)"
 ```
 
 ## One Command Install
