@@ -1,19 +1,19 @@
-@import "colors/current-theme.css";
+@import "colors/colors.css";
 /*----------------
     Workspaces
 ----------------*/
 
 #custom-left_div.1,
 #custom-right_div.1 {
-	color: @bg2;
+	color: @secondary-bg-color;
 }
 #workspaces {
 	padding: 0 1px;
-	background-color: @bg2;
+	background-color: @secondary-bg-color;
 }
 #workspaces button.active label,
 #workspaces button.focused label {
-	color: @blue;
+	color: @accent-color;
 }
 
 /*------------------

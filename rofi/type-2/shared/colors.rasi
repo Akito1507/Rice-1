@@ -15,4 +15,4 @@
 
 /* Import color-scheme from `colors` directory */
 
-@import "~/.config/rofi/type-2/colors/current-theme.rasi"
+@import "~/.config/rofi/type-2/colors/color.rasi"

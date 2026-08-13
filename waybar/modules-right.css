@@ -4,7 +4,7 @@
 
 #mpris {
 	padding: 0 12px;
-	background-color: @blue;
+	background-color: @accent-color;
 }
 
 /*------------
@@ -12,14 +12,14 @@
 ------------*/
 
 #custom-left_div.6 {
-	color: @bg2;
+	color: @secondary-bg-color;
 }
 #pulseaudio {
-	color: @blue;
-	background-color: @bg2;
+	color: @accent-color;
+	background-color: @secondary-bg-color;
 }
 #wireplumber {
-	background-color: @bg2;
+	background-color: @secondary-bg-color;
 }
 
 /*----------------
@@ -27,11 +27,11 @@
 ----------------*/
 
 #custom-left_div.7 {
-	background-color: @bg2;
-	color: @bg2;
+	background-color: @secondary-bg-color;
+	color: @secondary-bg-color;
 }
 #backlight {
-	background-color: @bg2;
+	background-color: @secondary-bg-color;
 }
 
 /*-------------
@@ -39,14 +39,15 @@
 -------------*/
 
 #custom-left_div.8 {
-	background-color: @bg2;
-	color: @bg2;
+	background-color: @secondary-bg-color;
+	color: @secondary-bg-color;
 }
 #battery {
-	background-color: @battery;
+	background-color: @secondary-bg-color;
 }
 #custom-left_inv.2 {
-	color: @bg2;
+	color: @secondary-bg-color;
+  background-color: @secondary-bg-color;
 }
 
 /*----------------
@@ -56,9 +57,9 @@
 #custom-power {
 	border-radius: 16px;
 	padding: 0 19px 0 16px;
-	color: @blue;
-	background-color: @bg2; 
+	color: @accent-color;
+	background-color: @secondary-bg-color; 
 }
 #custom-power:hover {
-	background-color: @bg2;
+	background-color: @secondary-bg-color;
 }

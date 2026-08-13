@@ -8,6 +8,7 @@ local fileManager2 = "kitty yazi"
 local fileManager = "nautilus -w"
 local menu = "~/scripts/rofi-launch.sh"
 local hyprshot = "hyprshot -m region"
+local hyprshot2 = "hyprshot -m output"
 
 ---------------------
 ---- KEYBINDINGS ----
@@ -26,7 +27,8 @@ hl.bind(
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
 hl.bind("ALT + SPACE", hl.dsp.exec_cmd(menu)) --Menu
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager2)) --File Manager
-hl.bind(mainMod .. " + SHIFT + S ", hl.dsp.exec_cmd(hyprshot)) --Screenshot
+hl.bind(mainMod .. " + SHIFT + S ", hl.dsp.exec_cmd(hyprshot)) --Screenshot region
+hl.bind(mainMod .. " + SHIFT + HOME", hl.dsp.exec_cmd(hyprshot2)) --Screenshot Monitor
 hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd(fileManager))
 
 --Scripts

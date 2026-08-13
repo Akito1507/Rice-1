@@ -7,7 +7,7 @@
 #mpris:hover,
 #pulseaudio:hover,
 #wireplumber:hover {
-	color: @blue;
+	color: @accent-color;
 }
 
 /* Inactive states */
@@ -16,7 +16,7 @@
 #pulseaudio.output.muted,
 #pulseaudio.input.source-muted,
 #wireplumber.muted {
-	color: @blue;
+	color: @accent-color;
 }
 
 #memory.warning,

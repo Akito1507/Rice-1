@@ -34,8 +34,8 @@ window {
     padding:                     0px;
     border:                      0px solid;
     border-radius:               12px;
-    border-color:                @selected;
-    background-color:            @background;
+    border-color:                @debug;
+    background-color:            @main-bg-color;
     cursor:                      "default";
 }
 
@@ -47,7 +47,7 @@ mainbox {
     padding:                     0px;
     border:                      0px solid;
     border-radius:               0px 0px 0px 0px;
-    border-color:                @selected;
+    border-color:                @debug;
     background-color:            transparent;
     children:                    [ "inputbar", "listview" ];
 }
@@ -60,9 +60,9 @@ inputbar {
     padding:                     15px;
     border:                      0px solid;
     border-radius:               0px;
-    border-color:                @selected;
-    background-color:            @selected;
-    text-color:                  @background;
+    border-color:                @accent-color;
+    background-color:            @accent-color;
+    text-color:                  @text-main-color;
     children:                    [ "prompt", "entry" ];
 }
 
@@ -105,16 +105,16 @@ listview {
     padding:                     10px;
     border:                      0px solid;
     border-radius:               0px;
-    border-color:                @selected;
+    border-color:                @debug;
     background-color:            transparent;
-    text-color:                  @foreground;
+    text-color:                  @debug;
     cursor:                      "default";
 }
 scrollbar {
     handle-width:                5px ;
-    handle-color:                @selected;
+    handle-color:                @debug;
     border-radius:               0px;
-    background-color:            @background-alt;
+    background-color:            @debug;
 }
 
 /*****----- Elements -----*****/
@@ -125,19 +125,19 @@ element {
     padding:                     20px 10px;
     border:                      0px solid;
     border-radius:               12px;
-    border-color:                @selected;
+    border-color:                @debug;
     background-color:            transparent;
-    text-color:                  @foreground;
+    text-color:                  @text-main-color;
     orientation:                 vertical;
     cursor:                      pointer;
 }
 element normal.normal {
-    background-color:            @background;
-    text-color:                  @foreground;
+    background-color:            transparent;
+    text-color:                  @text-main-color;
 }
 element selected.normal {
-    background-color:            @background-alt;
-    text-color:                  @foreground;
+    background-color:            @secondary-bg-color;
+    text-color:                  @text-main-color;
 }
 element-icon {
     background-color:            transparent;
@@ -159,13 +159,13 @@ error-message {
     padding:                     15px;
     border:                      2px solid;
     border-radius:               12px;
-    border-color:                @selected;
-    background-color:            @background;
-    text-color:                  @foreground;
+    border-color:                @main-bg-color;
+    background-color:            @main-bg-color;
+    text-color:                  @text-main-color;
 }
 textbox {
-    background-color:            @background;
-    text-color:                  @foreground;
+    background-color:            @main-bg-color;
+    text-color:                  @text-main-color;
     vertical-align:              0.5;
     horizontal-align:            0.0;
     highlight:                   none;
