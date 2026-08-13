@@ -31,5 +31,5 @@ git clone -b Desktop-Version https://github.com/Akito1507/Rice-1.git && cd Rice-
 
 ## My Apps
 ```bash
-flatpak install app.zen_browser.zen md.obsidian.Obsidian com.obsproject.Studio com.spotify.Client com.github.vikdevelop.photopea_app org.prismlauncher.PrismLauncher org.vinegarhq.Sober org.localsend.localsend_app
+flatpak install app.zen_browser.zen md.obsidian.Obsidian com.obsproject.Studio com.spotify.Client com.github.vikdevelop.photopea_app org.prismlauncher.PrismLauncher org.vinegarhq.Sober org.localsend.localsend_app && yay -S nvim --needed && git clone https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/nvim/.git
 ```
