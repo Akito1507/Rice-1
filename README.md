@@ -16,7 +16,7 @@ Dependencies
 + pavucontrol
 + hyprlock
 + hyprshot
-+ caskaydia Nerd Font
++ caskaydia nerd font
 + sddm
 
 ## Install all dependencies
