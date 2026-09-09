@@ -13,7 +13,8 @@ case "$option" in
   cp -f "$HOME/.config/colorschemes/gruvbox-materials/starship/starship.toml" "$HOME/.config"                                               #starship
   cp -r "$HOME/.config/colorschemes/gruvbox-materials/hypr-apps/." "$HOME/.config/hypr"                                                     #hypr apps
   bash "$HOME/scripts/reload-config.sh"                                                                                                     #reload config
-  awww img "$HOME/.config/backgrounds/shaded.jpg" --transition-fps 165 --transition-step 255 --transition-type any &                        #wallpaper chnage
+  cp -r "$HOME/.config/colorschemes/gruvbox-materials/bg/hyprlock-bg.png" "$HOME/.config/backgrounds/"
+  awww img "$HOME/.config/backgrounds/shaded.jpg" --transition-fps 165 --transition-step 255 --transition-type any & #wallpaper chnage
   nwg-look
   ;;
 
@@ -27,7 +28,8 @@ case "$option" in
   cp -f "$HOME/.config/colorschemes/catppuccin/starship/starship.toml" "$HOME/.config"                                               #starship
   cp -r "$HOME/.config/colorschemes/catppuccin/hypr-apps/." "$HOME/.config/hypr"                                                     #hypr apps
   bash "$HOME/scripts/reload-config.sh"                                                                                              #reload config
-  awww img "$HOME/.config/backgrounds/shaded.png" --transition-fps 165 --transition-step 255 --transition-type any &                 #wallpaper chnage
+  cp -r "$HOME/.config/colorschemes/catppuccin/bg/hyprlock-bg.png" "$HOME/.config/backgrounds/"
+  awww img "$HOME/.config/backgrounds/shaded.png" --transition-fps 165 --transition-step 255 --transition-type any & #wallpaper chnage
   nwg-look
   ;;
 
@@ -41,7 +43,8 @@ case "$option" in
   cp -f "$HOME/.config/colorschemes/Tokyo/starship/starship.toml" "$HOME/.config"                                               #starship
   cp -r "$HOME/.config/colorschemes/Tokyo/hypr-apps/." "$HOME/.config/hypr"                                                     #hypr apps
   bash "$HOME/scripts/reload-config.sh"                                                                                         #reload config
-  awww img "$HOME/.config/backgrounds/Tokyo.jpg" --transition-fps 165 --transition-step 255 --transition-type any &             #wallpaper chnage
+  cp -r "$HOME/.config/colorschemes/Tokyo/bg/hyprlock-bg.png" "$HOME/.config/backgrounds/"
+  awww img "$HOME/.config/backgrounds/Tokyo.jpg" --transition-fps 165 --transition-step 255 --transition-type any & #wallpaper chnage
   nwg-look
   ;;
 esac

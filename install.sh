@@ -27,5 +27,3 @@ mkdir -p $HOME/.config/swaync && cp -rv $HOME/Rice-1/swaync/. $HOME/.config/sway
 mkdir -p $HOME/.config/waybar && cp -rv $HOME/Rice-1/waybar/. $HOME/.config/waybar/ #waybar
 
 mkdir -p $HOME/.config/yazi && cp -rv $HOME/Rice-1/yazi/. $HOME/.config/yazi/ #yazi
-
-sudo systemctl disable sddm
