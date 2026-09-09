@@ -31,5 +31,3 @@ mkdir -p $HOME/.config/yazi && cp -rv $HOME/Rice-1/yazi/. $HOME/.config/yazi/ #y
 cd $HOME/scripts && chmod +x themes-selector.sh && chmod +x master-selector.sh && chmod +x config-menu.sh && chmod +x rofi-launch.sh && chmod +x wallpaper-selector.sh && chmod +x reload-config.sh && chmod +x power.sh && chmod +x laptop.sh && chmod +x enable-chaotic-aur.sh #make scripts executable as files
 
 sudo systemctl enable --now auto-cpufreq.service && ./$HOME/scripts/enable-chaotic-aur.sh && ./$HOME/scripts/laptop.sh #autocpufreq
-
-sudo systemctl disable sddm
