@@ -8,7 +8,7 @@ Dependencies
 + kitty
 + starship
 + nwg-look
-+ discord with vencord (vesktop might work if the location is the same. prob not)
++ vesktop
 + fzf
 + fastfetch
 + nautilus
